@@ -55,8 +55,8 @@
   --edispo-primary: #2e2e2e;
   --edispo-secondary: #c74040;
 
-  --edispo-base-pos: #3b9122;
-  --edispo-base-neg: #8ef170;
+  --edispo-base-pos: #2e7c16;
+  --edispo-base-neg: #a3dd92;
   --edispo-primary-pos: #1a1919;
   --edispo-primary-neg: #4d4d4d;
   --edispo-secondary-pos: #962d2d;
@@ -141,6 +141,12 @@
   .edispo-color-base{
     color: var(--edispo-base);
   }
+  .edispo-color-base-pos{
+    color: var(--edispo-base-pos);
+  }
+  .edispo-color-base-neg{
+    color: var(--edispo-base-neg);
+  }
   .edispo-color-primary{
     color: var(--edispo-primary);
   }
@@ -205,6 +211,9 @@
   }
   .edispo-bg-contrast{
     background-color: var(--edispo-contrast);
+  }
+  .edispo-bg-hard-contrast{
+    background-color: var(--edispo-hard-contrast);
   }
   .edispo-bg-gradient-1{
     background-image: linear-gradient(to right, var(--edispo-primary), var(--edispo-secondary));
@@ -381,6 +390,31 @@
   }
   .edispo-border-base-8{
     border: 8px solid var(--edispo-base)
+  }
+
+  .edispo-border-base-pos-1{
+    border: 1px solid var(--edispo-base-pos)
+  }
+  .edispo-border-base-pos-2{
+    border: 2px solid var(--edispo-base-pos)
+  }
+  .edispo-border-base-pos-3{
+    border: 3px solid var(--edispo-base-pos)
+  }
+  .edispo-border-base-pos-4{
+    border: 4px solid var(--edispo-base-pos)
+  }
+  .edispo-border-base-pos-5{
+    border: 5px solid var(--edispo-base-pos)
+  }
+  .edispo-border-base-pos-6{
+    border: 6px solid var(--edispo-base-pos)
+  }
+  .edispo-border-base-pos-7{
+    border: 7px solid var(--edispo-base-pos)
+  }
+  .edispo-border-base-pos-8{
+    border: 8px solid var(--edispo-base-pos)
   }
 
   .edispo-border-primary-1{
