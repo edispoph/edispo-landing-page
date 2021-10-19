@@ -57,6 +57,8 @@
 
   --edispo-base-pos: #3b9122;
   --edispo-base-neg: #8ef170;
+  --edispo-primary-pos: #1a1919;
+  --edispo-primary-neg: #4d4d4d;
   --edispo-secondary-pos: #962d2d;
   --edispo-secondary-neg: #cf7171;
 
@@ -142,6 +144,12 @@
   .edispo-color-primary{
     color: var(--edispo-primary);
   }
+  .edispo-color-primary-pos{
+    color: var(--edispo-primary-pos);
+  }
+  .edispo-color-primary-neg{
+    color: var(--edispo-primary-neg);
+  }
   .edispo-color-secondary{
     color: var(--edispo-secondary);
   }
@@ -176,6 +184,12 @@
   }
   .edispo-bg-primary{
     background-color: var(--edispo-primary);
+  }
+  .edispo-bg-primary-pos{
+    background-color: var(--edispo-primary-pos);
+  }
+  .edispo-bg-primary-neg{
+    background-color: var(--edispo-primary-neg);
   }
   .edispo-bg-secondary{
     background-color: var(--edispo-secondary);
