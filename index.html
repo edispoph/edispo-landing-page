@@ -115,11 +115,11 @@ permalink: /
       </div>
     </section>
     <section id="our-story-content-section" style="background-image: url('{{site.baseurl}}/assets/images/blurred-laptop-bg.png'); 
-        background-size: contain; background-repeat: no-repeat; background-position: left; height: 500px;">
+        background-repeat: no-repeat; background-position: left;">
       <div class="container h-100">
         <section class="row h-100">
           <div class="col-md-6"></div>
-          <div class="col-md-6 h-100 d-flex align-items-center">
+          <div class="col-md-6 h-100 d-flex align-items-center p-0">
             <div class="card p-4 py-5 border-0 rounded-xxl">
               <h1 class="edispo-font-7">
                 <span class="edispo-color-contrast-neg edispo-regular-2">Our</span>
@@ -143,6 +143,27 @@ permalink: /
 
   </section>
   <style>
-    
+    @media (min-width: 576px) {
+      #our-story-content-section {
+        height: 400px;
+        background-size: contain;
+      }
+    }
+
+    @media (min-width: 768px) {
+      #our-story-content-section {
+        height: 600px;
+      }
+    }
+
+    @media (min-width: 992px) { 
+      #our-story-content-section {
+        background-size: 60%;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      
+    }
   </style>
 </main>
