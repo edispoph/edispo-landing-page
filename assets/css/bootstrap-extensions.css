@@ -72,6 +72,12 @@
   border-top-left-radius: 0 !important;
   border-bottom-left-radius: 0 !important;
 }
+.rounded-xl {
+  border-radius: 0.5rem !important;
+}
+.rounded-xxl {
+  border-radius: 0.75rem !important;
+}
 .transition-fast{
   transition: 0.2s;
 }
