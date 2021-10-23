@@ -13,24 +13,26 @@
   font-family: main0Bold;
   src: url("../typefaces/Neue Montreal/NeueMontreal-Bold.otf");
 }
+
+@font-face {
+  font-family: main1Light;
+  src: url("../typefaces/Montserrat/Montserrat-Light.ttf");
+}
 @font-face {
   font-family: main1Regular;
-  src: url("../typefaces/Typograph PRO/TYPOGRAPH PRO Light.ttf");
+  src: url("../typefaces/Montserrat/Montserrat-Regular.ttf");
 }
-
 @font-face {
   font-family: main1SemiBold;
-  src: url("../typefaces/Typograph PRO/TYPOGRAPH PRO Semi Bold.ttf");
+  src: url("../typefaces/Montserrat/Montserrat-SemiBold.ttf");
 }
-
 @font-face {
   font-family: main1Bold;
-  src: url("../typefaces/Typograph PRO/TYPOGRAPH PRO Semi Bold.ttf");
+  src: url("../typefaces/Montserrat/Montserrat-Bold.ttf");
 }
-
 @font-face {
   font-family: main1Black;
-  src: url("../typefaces/Typograph PRO/TYPOGRAPH PRO Extra Bold.ttf");
+  src: url("../typefaces/Montserrat/Montserrat-Black.ttf");
 }
 
 @font-face {
@@ -98,6 +100,9 @@
 /* typography */
   .edispo-special{
     font-family: main0Regular;
+  }
+  .edispo-light-1{
+    font-family: main1Regular;
   }
   .edispo-regular-1{
     font-family: main1Regular;
