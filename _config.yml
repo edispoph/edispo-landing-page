@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
     eDispo is an online marketplace targeted towards the reselling of 
     used corporate and individual electronics such as computers, cellphones, laptops, 
     TVs, and the like.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/edispo-landing-page" # the subpath of your site, e.g. /blog
+url: "https://edispoph.github.io/edispo-landing-page" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
