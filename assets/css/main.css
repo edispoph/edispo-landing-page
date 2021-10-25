@@ -774,3 +774,47 @@
   fill: var(--edispo-contrast);
   transition: 0.2s;
 }
+
+@media (min-width: 576px) {
+  .edispo-font-sm-1{font-size: 1rem;}
+  .edispo-font-sm-2{font-size: 1.4rem;}
+  .edispo-font-sm-3{font-size: 1.8rem;}
+  .edispo-font-sm-4{font-size: 2.2rem;}
+  .edispo-font-sm-5{font-size: 2.6rem;}
+  .edispo-font-sm-6{font-size: 3rem;}
+  .edispo-font-sm-7{font-size: 4.4rem;}
+  .edispo-font-sm-8{font-size: 4.8rem;}
+}
+
+@media (min-width: 768px) {
+  .edispo-font-md-1{font-size: 1rem;}
+  .edispo-font-md-2{font-size: 1.4rem;}
+  .edispo-font-md-3{font-size: 1.8rem;}
+  .edispo-font-md-4{font-size: 2.2rem;}
+  .edispo-font-md-5{font-size: 2.6rem;}
+  .edispo-font-md-6{font-size: 3rem;}
+  .edispo-font-md-7{font-size: 4.4rem;}
+  .edispo-font-md-8{font-size: 4.8rem;}
+}
+
+@media (min-width: 992px) { 
+  .edispo-font-lg-1{font-size: 1rem;}
+  .edispo-font-lg-2{font-size: 1.4rem;}
+  .edispo-font-lg-3{font-size: 1.8rem;}
+  .edispo-font-lg-4{font-size: 2.2rem;}
+  .edispo-font-lg-5{font-size: 2.6rem;}
+  .edispo-font-lg-6{font-size: 3rem;}
+  .edispo-font-lg-7{font-size: 4.4rem;}
+  .edispo-font-lg-8{font-size: 4.8rem;}
+}
+
+@media (min-width: 1200px) {
+  .edispo-font-xl-1{font-size: 1rem;}
+  .edispo-font-xl-2{font-size: 1.4rem;}
+  .edispo-font-xl-3{font-size: 1.8rem;}
+  .edispo-font-xl-4{font-size: 2.2rem;}
+  .edispo-font-xl-5{font-size: 2.6rem;}
+  .edispo-font-xl-6{font-size: 3rem;}
+  .edispo-font-xl-7{font-size: 4.4rem;}
+  .edispo-font-xl-8{font-size: 4.8rem;}
+}
