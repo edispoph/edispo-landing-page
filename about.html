@@ -7,7 +7,7 @@ permalink: /about/
   <section style="background-image: url('{{site.baseurl}}/assets/images/about/floating-camera.png'); background-size: cover; background-position: center; height: 600px;">
     <div class="container d-flex flex-column edispo-color-hard-contrast h-100 justify-content-center align-items-center text-center">
       <span class="edispo-font-3 edispo-bold-1">eDispo</span>
-      <h1 class="edispo-font-8 edispo-regular-1">Enabling technology with the boundaries of nature</h1>
+      <h1 class="edispo-font-6 edispo-font-md-8 edispo-regular-1">Enabling technology with the boundaries of nature</h1>
     </div>
   </section>
   <!-- About eDispo -->
@@ -19,7 +19,7 @@ permalink: /about/
           <div class="col-md-6"></div>
           <div class="col-md-6 h-100 d-flex align-items-center p-0">
             <div class="card p-4 py-5 border-0 rounded-none rounded-md-xxl">
-              <h1 class="edispo-font-7">
+              <h1 class="edispo-font-5 edispo-font-md-7">
                 <span class="edispo-color-contrast-neg edispo-regular-2">About</span>
                 <span class="edispo-color-base edispo-bold-2">Edispo</span>
               </h1>
@@ -38,8 +38,8 @@ permalink: /about/
   <!-- Company Values -->
   <section class="container">
     <div class="row">
-      <section class="col-md-4 d-flex flex-column text-right">
-        <h1 class="edispo-font-7">
+      <section class="col-md-4 d-flex flex-column text-left text-md-right">
+        <h1 class="edispo-font-5 edispo-font-md-7">
           <span class="edispo-color-contrast-neg edispo-regular-2">Company</span>
           <span class="edispo-bold-2">Values</span>
         </h1>
@@ -49,8 +49,8 @@ permalink: /about/
       </section>
       <div class="col-md-8 carousel" data-flickity='{ "freeScroll": true, "pageDots": false, "prevNextButtons": false, "contain": true }'>
         {% for company-value in site.data.company-values %}
-          <div class="p-2" style="width: 29%;">
-            <section style="height:300px;">
+          <div class="p-2 company-values-cell">
+            <section class="company-values-cell-img-container d-flex justify-content-center align-items-center">
               <img src="{{site.baseurl}}/assets/images{{ company-value.img }}" alt="{{ company-value.img_alt_text }}" class="img-fluid"/>
             </section>
             <section>
@@ -82,9 +82,9 @@ permalink: /about/
           </p>
         </div>
       </div>
-      <div class="row mission-vision-container">
+      <div class="row mission-vision-container d-flex flex-column-reverse flex-md-row">
         <div class="col-md-5 d-flex justify-content-center align-items-center">
-          <p class="edispo-regular-1 edispo-font-2 text-right">
+          <p class="edispo-regular-1 edispo-font-2 text-md-right text-left">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum animi laudantium quod fuga nihil, deleniti deserunt placeat eos dolore ipsam natus. Eveniet vitae nam quo eligendi? At et eligendi nobis!
           </p>
         </div>
@@ -129,6 +129,9 @@ permalink: /about/
     </div>
   </section>
   <style>
+    #about-edispo-content-section {
+      height: 350px;
+    }
     .mission-vision-text {
       color: var(--edispo-contrast-neg);
       transition: 0.2s;
@@ -136,11 +139,23 @@ permalink: /about/
     .mission-vision-container:hover .mission-vision-text {
       color: var(--edispo-base); 
     }
+    .company-values-cell {
+      width: 70%;
+    }
+    .company-values-cell-img-container {
+      height: 300px;
+    }
 
     @media (min-width: 576px) {
       #about-edispo-content-section {
         height: 400px;
         background-size: contain;
+      }
+      .company-values-cell {
+        width: 40%;
+      }
+      .company-values-cell-img-container {
+        height: 280px;
       }
     }
 
@@ -148,16 +163,33 @@ permalink: /about/
       #about-edispo-content-section {
         height: 600px;
       }
+      .company-values-cell {
+        width: 38%;
+      }
+      .company-values-cell-img-container {
+        height: 240px;
+      }
     }
 
     @media (min-width: 992px) { 
       #about-edispo-content-section {
         background-size: 60%;
       }
+      .company-values-cell {
+        width: 34%;
+      }
+      .company-values-cell-img-container {
+        height: 300px;
+      }
     }
 
     @media (min-width: 1200px) {
-      
+      .company-values-cell {
+        width: 30%;
+      }
+      .company-values-cell-img-container {
+        height: 300px;
+      }
     }
   </style>
 </main>
