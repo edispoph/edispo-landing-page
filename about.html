@@ -37,12 +37,30 @@ permalink: /about/
   </section>
   <!-- Company Values -->
   <section class="container">
-    <div class="carousel" data-flickity='{ "freeScroll": true }'>
-      <div class="carousel-cell">a</div>
-      <div class="carousel-cell">s</div>
-      <div class="carousel-cell">d</div>
-      <div class="carousel-cell">f</div>
-      <div class="carousel-cell">g</div>
+    <div class="row">
+      <section class="col-md-4 d-flex flex-column text-right">
+        <h1 class="edispo-font-6">
+          <span class="edispo-color-contrast-neg edispo-regular-2">Company</span>
+          <span class="edispo-bold-2">Values</span>
+        </h1>
+        <p class="edispo-regular-2 edispo-font-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim soluta sequi iusto maxime ipsam consectetur eos sint debitis, eveniet, quaerat, ducimus ipsa iure sed tenetur libero non eum reiciendis et!
+        </p>
+      </section>
+      <div class="col-md-8 carousel" data-flickity='{ "freeScroll": true, "pageDots": false, "prevNextButtons": false, "contain": true }'>
+        {% for company-value in site.data.company-values %}
+          <div class="p-2" style="width: 29%;">
+            <section style="height:300px;">
+              <img src="{{site.baseurl}}/assets/images{{ company-value.img }}" alt="{{ company-value.img_alt_text }}" class="img-fluid"/>
+            </section>
+            <section>
+              <p>
+                {{ company-value.description }}
+              </p>
+            </section>
+          </div>
+        {% endfor %}
+      </div>
     </div>
   </section>
   <!-- Mission Vission -->
@@ -118,7 +136,7 @@ permalink: /about/
     .mission-vision-container:hover .mission-vision-text {
       color: var(--edispo-base); 
     }
-
+    
     @media (min-width: 576px) {
       #about-edispo-content-section {
         height: 400px;

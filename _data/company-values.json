@@ -1,0 +1,37 @@
+[
+  {
+    "img": "/about/chains.png",
+    "img_alt_text": "Chains with sunbeams going through it.",
+    "description": "lorem ipsum text description lorem ipsum text description lorem ipsum text description lorem ipsum text description"
+  },
+  {
+    "img": "/about/stacked-stones.png",
+    "img_alt_text": "Stones stacked on top of each other.",
+    "description": "lorem ipsum text description lorem ipsum text description lorem ipsum text description"
+  },
+  {
+    "img": "/about/cross.png",
+    "img_alt_text": "An old stone cross.",
+    "description": "lorem ipsum text description lorem ipsum text description lorem ipsum text description ipsum text description"
+  },
+  {
+    "img": "/about/hand-formation.png",
+    "img_alt_text": "A set of arms holding each other to symbolize teamwork.",
+    "description": "lorem ipsum text description lorem ipsum text description ipsum text description"
+  },
+  {
+    "img": "/about/exercise.png",
+    "img_alt_text": "People exercising.",
+    "description": "lorem ipsum text description lorem ipsum text descriptionipsum text description ipsum text description"
+  },
+  {
+    "img": "/about/mountain-hiking.png",
+    "img_alt_text": "A person standing in between two mountains.",
+    "description": "lorem ipsum text description lorem ipsum text descriptionipsum text description ipsum text description"
+  },
+  {
+    "img": "/about/black-painting.png",
+    "img_alt_text": "A painting of characters from an ancient language.",
+    "description": "lorem ipsum text description text descriptionipsum text description ipsum text description"
+  }
+]
