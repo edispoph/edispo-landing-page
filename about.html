@@ -44,22 +44,24 @@ permalink: /about/
       </div>
     </section>
     <section class="container">
-      <div class="row">
+      <div class="row mission-vision-container">
         <div class="col-md-7 d-flex justify-content-center align-items-center">
-          <span class="edispo-black-1 edispo-color-contrast-neg" style="font-size: 8vw;">MISSION</span>
+          <span class="edispo-black-1 mission-vision-text" style="font-size: 8vw;">MISSION</span>
         </div>
         <div class="col-md-5 d-flex justify-content-center align-items-center">
           <p class="edispo-regular-1 edispo-font-2 text-left">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum animi laudantium quod fuga nihil, deleniti deserunt placeat eos dolore ipsam natus. Eveniet vitae nam quo eligendi? At et eligendi nobis!
           </p>
         </div>
+      </div>
+      <div class="row mission-vision-container">
         <div class="col-md-5 d-flex justify-content-center align-items-center">
           <p class="edispo-regular-1 edispo-font-2 text-right">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum animi laudantium quod fuga nihil, deleniti deserunt placeat eos dolore ipsam natus. Eveniet vitae nam quo eligendi? At et eligendi nobis!
           </p>
         </div>
         <div class="col-md-7 d-flex justify-content-center align-items-center">
-          <span class="edispo-black-1 edispo-color-contrast-neg" style="font-size: 8vw;">VISION</span>
+          <span class="edispo-black-1 mission-vision-text" style="font-size: 8vw;">VISION</span>
         </div>
       </div>
     </section>
@@ -100,12 +102,11 @@ permalink: /about/
   </section>
   <style>
     .mission-vision-text {
-      text-align: justify;
+      color: var(--edispo-contrast-neg);
+      transition: 0.2s;
     }
-    .mission-vision-text:after {
-      content: "";
-      display: inline-block;
-      width: 100%;
+    .mission-vision-container:hover .mission-vision-text {
+      color: var(--edispo-base); 
     }
 
     @media (min-width: 576px) {
