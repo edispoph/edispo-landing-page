@@ -10,7 +10,9 @@
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <link rel="icon" href="{{site.baseurl}}/favicon.ico" type="image/gif" sizes="16x16">
   <script src="{{site.baseurl}}/assets/js/main.js"></script>
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <title>{{page.title}} | Edispo</title>
   <meta name="description" content="Edispo is an online marketplace targeted towards the reselling of 
       used corporate and individual electronics such as computers, cellphones, laptops, 
@@ -52,22 +54,6 @@
   {% include header.html %}
   {{content}}
   {% include footer.html %}
-
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-  <script>
-    $(document).ready(function(){
-      $('.carousel').slick({
-        "dots": false,
-        "arrows": false,
-        "slidesToShow": 4, 
-        "slidesToScroll": 4,
-        "infinite": false
-      });
-    });
-  </script>
 </body>
 
 

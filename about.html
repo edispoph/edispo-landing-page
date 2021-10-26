@@ -47,7 +47,7 @@ permalink: /about/
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim soluta sequi iusto maxime ipsam consectetur eos sint debitis, eveniet, quaerat, ducimus ipsa iure sed tenetur libero non eum reiciendis et!
         </p>
       </section>
-      <div class="col-md-8 carousel">
+      <div class="col-md-8 carousel position-relative">
         {% for company-value in site.data.company-values %}
           <div class="p-2 company-values-cell">
             <section class="company-values-cell-img-container d-flex justify-content-center align-items-center">
@@ -61,6 +61,37 @@ permalink: /about/
           </div>
         {% endfor %}
       </div>
+      <script>
+        $(document).ready(function(){
+          $('.carousel').slick({
+            "dots": false,
+            "arrows": true,
+            "slidesToShow": 4, 
+            "slidesToScroll": 1,
+            "infinite": false,
+            "prevArrow":"<button type='button' style='left:-10px;' class='btn company-values-nav-button'><</button>",
+            "nextArrow":"<button type='button' style='right:-10px;' class='btn company-values-nav-button'>></button>",
+            "responsive": [
+            {
+              breakpoint: 1200,
+              settings: {slidesToShow: 4}
+            },
+            {
+              breakpoint: 992,
+              settings: {slidesToShow: 3}
+            },
+            {
+              breakpoint: 576,
+              settings: {slidesToShow: 2}
+            },
+            {
+              breakpoint: 376,
+              settings: {slidesToShow: 1}
+            },
+          ]
+          });
+        });
+      </script>
     </div>
   </section>
   <!-- Mission Vission -->
@@ -145,6 +176,16 @@ permalink: /about/
     .company-values-cell-img-container {
       height: 350px;
     }
+    .company-values-nav-button {
+      position: absolute;
+      top:50%;
+      z-index:10;
+      border-radius: 50%;
+      background-color: rgba(175, 174, 174, 0.726);
+      transform: translateY(-50%);
+      font-size: 1rem;
+      color: white;
+    }
 
     @media (min-width: 576px) {
       #about-edispo-content-section {
@@ -167,7 +208,7 @@ permalink: /about/
         width: 38%;
       }
       .company-values-cell-img-container {
-        height: 240px;
+        height: 220px;
       }
     }
 
@@ -179,7 +220,7 @@ permalink: /about/
         width: 34%;
       }
       .company-values-cell-img-container {
-        height: 300px;
+        height: 240px;
       }
     }
 
@@ -188,7 +229,7 @@ permalink: /about/
         width: 30%;
       }
       .company-values-cell-img-container {
-        height: 300px;
+        height: 260px;
       }
     }
   </style>
