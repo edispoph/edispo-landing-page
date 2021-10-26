@@ -1,6 +1,5 @@
 @import "bootstrap.css";
 @import "bootstrap-extensions.css";
-@import "flickity.css";
 
 @font-face {
   font-family: main0Regular;
@@ -755,24 +754,6 @@
 	display: inline-block;
 	position: relative;
   width: 100%;
-}
-
-/* FLICKITY */
-
-.flickity-button {
-  background: transparent;
-  transition: 0.2s;
-}
-.flickity-button:hover {
-  background: transparent;
-}
-/* icon color */
-.flickity-button-icon {
-  fill: var(--edispo-contrast-neg);
-}
-.flickity-button:hover .flickity-button-icon {
-  fill: var(--edispo-contrast);
-  transition: 0.2s;
 }
 
 @media (min-width: 576px) {
