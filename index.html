@@ -8,11 +8,11 @@ permalink: /
     <div class="container h-100">
       <div class="row h-100">
         <section class="col-lg-7 d-flex flex-column justify-content-center">
-          <h1 class="">
-            <span class="edispo-semibold-2 edispo-color-base" style="font-size: 8rem;">Edispo</span>
-            <img src="{{site.baseurl}}/assets/images/logo.png" alt="The Edispo logo." class="img-fluid vertical-align-bottom" style="max-width: 150px;"/>
-          </h1>
-          <h2 class="py-3 edispo-color-primary">
+          <section class="d-flex justify-content-center flex-column flex-md-row align-items-center align-items-md-start justify-content-md-start">
+            <span id="hero-title-text" class="edispo-semibold-2 edispo-color-base">Edispo</span>
+            <img src="{{site.baseurl}}/assets/images/logo.png" alt="The Edispo logo." class="img-fluid" style="max-height: 150px;max-width: 180px;"/>
+          </section>
+          <h2 class="py-3 edispo-color-primary text-sm-center text-md-start">
             <b>Innovation, Inclusion, E-Waste Management.</b> <br/>
             <span class="edispo-regular-1 h4">We are the Philippine's first online <b>e-waste exchange</b></span>
           </h2>
@@ -26,11 +26,11 @@ permalink: /
             </div>
           </button> -->
         </section>
-        <section class="col-lg-5 d-flex align-items-center">
-          <div class="position-relative" style="height: 370px;">
-            <img src="{{site.baseurl}}/assets/images/laptop-graphic-3.png" alt="Demonstration of the UI of eDispo's item listing page." height="200" width="355" class="position-absolute" style=""/>
-            <img src="{{site.baseurl}}/assets/images/laptop-graphic-2.png" alt="Demonstration of the UI of eDispo's listings page." height="200" width="355" class="position-absolute" style="transform: translate(158px, 76px);"/>
-            <img src="{{site.baseurl}}/assets/images/laptop-graphic-1.png" alt="Demonstration of the UI of eDispo's user profile page." height="200" width="355" class="position-absolute" style="transform: translate(60px, 170px);"/>
+        <section class="col-lg-5 d-flex align-items-center justify-content-center">
+          <div class="position-relative" style="height: 370px;width:480px">
+            <img src="{{site.baseurl}}/assets/images/laptop-graphic-3.png" alt="Demonstration of the UI of eDispo's item listing page." height="auto" width="70%" class="position-absolute" style="transform: translate(-10%, 0%);"/>
+            <img src="{{site.baseurl}}/assets/images/laptop-graphic-2.png" alt="Demonstration of the UI of eDispo's listings page." height="auto" width="70%" class="position-absolute" style="transform: translate(54%, 42%);"/>
+            <img src="{{site.baseurl}}/assets/images/laptop-graphic-1.png" alt="Demonstration of the UI of eDispo's user profile page." height="auto" width="70%" class="position-absolute" style="transform: translate(24%, 100%);"/>
           </div>
         </section>
       </div>
@@ -47,7 +47,7 @@ permalink: /
     </div>
   </section> -->
   <!-- What is Edispo -->
-  <section class="p-3 my-5" style="height: 400px">
+  <section class="p-3 my-5">
     <div class="container h-100 p-5 d-flex justify-content-center text-center flex-column" style="
       border-image-slice:34% 33% 34% 33%;
       border-image-width:20px 15px 20px 15px;
@@ -66,7 +66,7 @@ permalink: /
     </div>
   </section>
   <!-- Problem Statement -->
-  <section class="" style="background-image: url('{{site.baseurl}}/assets/images/green-wavy-bg.png'); background-size: cover; background-position: center; height: 600px;">
+  <section id="problem-statement-" class="" style="background-image: url('{{site.baseurl}}/assets/images/green-wavy-bg.png'); background-size: cover; background-position: center;">
     <div class="container h-100 d-flex flex-column edispo-color-hard-contrast edispo-regular-2 edispo-font-2 py-3">
       <section class="text-center my-3">
         <span><small>Whether you're a business worth millions of pesos, or an ordinary person living an ordinary life...</small></span>
@@ -120,6 +120,9 @@ permalink: /
     </section>
   </section>
   <style>
+    #hero-title-text{
+      font-size: 6rem;
+    }
     @media (min-width: 576px) {
       #our-story-content-section {
         height: 400px;
@@ -136,6 +139,9 @@ permalink: /
     @media (min-width: 992px) { 
       #our-story-content-section {
         background-size: 60%;
+      }
+      #hero-title-text{
+        font-size: 8rem;
       }
     }
 
