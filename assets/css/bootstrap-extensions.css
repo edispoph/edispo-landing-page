@@ -225,6 +225,10 @@
   .rounded-sm-xxl {
     border-radius: 0.75rem !important;
   }
+
+  .text-sm-start {
+    text-align: start !important;
+  }
 }
 
 @media (min-width: 768px) {
@@ -328,6 +332,10 @@
   .rounded-md-xxl {
     border-radius: 0.75rem !important;
   }
+
+  .text-md-start {
+    text-align: start !important;
+  }
 }
 
 @media (min-width: 992px) {
@@ -428,6 +436,10 @@
   .rounded-lg-xxl {
     border-radius: 0.75rem !important;
   }
+
+  .text-lg-start {
+    text-align: start !important;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -527,5 +539,9 @@
   }
   .rounded-xl-xxl {
     border-radius: 0.75rem !important;
+  }
+
+  .text-xl-start {
+    text-align: start !important;
   }
 }

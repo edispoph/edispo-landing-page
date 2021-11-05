@@ -53,12 +53,12 @@
 }
 
 .theme1 {
-  --edispo-base: #94d600;
+  --edispo-base: rgb(110, 189, 68);
   --edispo-primary: #2e2e2e;
   --edispo-secondary: #c74040;
 
-  --edispo-base-pos: #70a300;
-  --edispo-base-neg: #bfe66a;
+  --edispo-base-pos: rgb(66, 141, 26);
+  --edispo-base-neg: rgb(162, 218, 132);
   --edispo-primary-pos: #1a1919;
   --edispo-primary-neg: #4d4d4d;
   --edispo-secondary-pos: #962d2d;
