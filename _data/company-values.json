@@ -2,36 +2,21 @@
   {
     "img": "/about/chains.png",
     "img_alt_text": "Chains with sunbeams going through it.",
-    "description": "lorem ipsum text description lorem ipsum text description lorem ipsum text description lorem ipsum text description"
+    "description": "We love to challenge the norm. Exploring new ways and methods pave the way to better results."
   },
   {
     "img": "/about/stacked-stones.png",
     "img_alt_text": "Stones stacked on top of each other.",
-    "description": "lorem ipsum text description lorem ipsum text description lorem ipsum text description"
+    "description": "As thinkers, logic and common sense is always first. Our focus is driven by intuition to come up with a solution."
   },
   {
     "img": "/about/cross.png",
     "img_alt_text": "An old stone cross.",
-    "description": "lorem ipsum text description lorem ipsum text description lorem ipsum text description ipsum text description"
+    "description": "We believe that knowledge is empowerment. When you have all the information you need, action follows."
   },
   {
     "img": "/about/hand-formation.png",
     "img_alt_text": "A set of arms holding each other to symbolize teamwork.",
-    "description": "lorem ipsum text description lorem ipsum text description ipsum text description"
-  },
-  {
-    "img": "/about/exercise.png",
-    "img_alt_text": "People exercising.",
-    "description": "lorem ipsum text description lorem ipsum text descriptionipsum text description ipsum text description"
-  },
-  {
-    "img": "/about/mountain-hiking.png",
-    "img_alt_text": "A person standing in between two mountains.",
-    "description": "lorem ipsum text description lorem ipsum text descriptionipsum text description ipsum text description"
-  },
-  {
-    "img": "/about/black-painting.png",
-    "img_alt_text": "A painting of characters from an ancient language.",
-    "description": "lorem ipsum text description text descriptionipsum text description ipsum text description"
+    "description": "Opportunities abound and our deep sense of belonging and open communication motivates us to move forward in the right direction."
   }
 ]
