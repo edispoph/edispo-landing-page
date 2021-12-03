@@ -54,7 +54,8 @@ permalink: /about/
             <section class="company-values-cell-img-container d-flex justify-content-center align-items-center">
               <img src="{{site.baseurl}}/assets/images{{ company-value.img }}" alt="{{ company-value.img_alt_text }}" class="img-fluid"/>
             </section>
-            <section>
+            <section class="d-flex flex-column">
+              <h5>{{ company-value.title }}</h5>
               <p>
                 {{ company-value.description }}
               </p>

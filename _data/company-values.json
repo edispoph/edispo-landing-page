@@ -2,21 +2,25 @@
   {
     "img": "/about/chains.png",
     "img_alt_text": "Chains with sunbeams going through it.",
+    "title": "Always innovate",
     "description": "We love to challenge the norm. Exploring new ways and methods pave the way to better results."
   },
   {
     "img": "/about/stacked-stones.png",
     "img_alt_text": "Stones stacked on top of each other.",
+    "title": "We are problem-solvers",
     "description": "As thinkers, logic and common sense is always first. Our focus is driven by intuition to come up with a solution."
   },
   {
     "img": "/about/cross.png",
     "img_alt_text": "An old stone cross.",
+    "title": "Be informed",
     "description": "We believe that knowledge is empowerment. When you have all the information you need, action follows."
   },
   {
     "img": "/about/hand-formation.png",
     "img_alt_text": "A set of arms holding each other to symbolize teamwork.",
+    "title": "Inspire others",
     "description": "Opportunities abound and our deep sense of belonging and open communication motivates us to move forward in the right direction."
   }
 ]
