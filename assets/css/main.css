@@ -1,57 +1,6 @@
 @import "bootstrap.css";
 @import "bootstrap-extensions.css";
 
-@font-face {
-  font-family: main0Regular;
-  src: url("../typefaces/Neue Montreal/NeueMontreal-Regular.otf");
-}
-@font-face {
-  font-family: main0Medium;
-  src: url("../typefaces/Neue Montreal/NeueMontreal-Medium.otf");
-}
-@font-face {
-  font-family: main0Bold;
-  src: url("../typefaces/Neue Montreal/NeueMontreal-Bold.otf");
-}
-
-@font-face {
-  font-family: main1Light;
-  src: url("../typefaces/Montserrat/Montserrat-Light.ttf");
-}
-@font-face {
-  font-family: main1Regular;
-  src: url("../typefaces/Montserrat/Montserrat-Regular.ttf");
-}
-@font-face {
-  font-family: main1SemiBold;
-  src: url("../typefaces/Montserrat/Montserrat-SemiBold.ttf");
-}
-@font-face {
-  font-family: main1Bold;
-  src: url("../typefaces/Montserrat/Montserrat-Bold.ttf");
-}
-@font-face {
-  font-family: main1Black;
-  src: url("../typefaces/Montserrat/Montserrat-Black.ttf");
-}
-
-@font-face {
-  font-family: main2Regular;
-  src: url("../typefaces/Roboto/Roboto-Regular.ttf");
-}
-@font-face {
-  font-family: main2SemiBold;
-  src: url("../typefaces/Roboto/Roboto-Medium.ttf");
-}
-@font-face {
-  font-family: main2Bold;
-  src: url("../typefaces/Roboto/Roboto-Bold.ttf");
-}
-@font-face {
-  font-family: main2Black;
-  src: url("../typefaces/Roboto/Roboto-Black.ttf");
-}
-
 .theme1 {
   --edispo-base: rgb(110, 189, 68);
   --edispo-primary: #2e2e2e;
@@ -81,11 +30,11 @@
 
 :root {
   font-size: 14px;
-  font-family: main1Regular;
+  font-family: 'Montserrat';
 }
 
 /* elements */
-  html, body {width: auto!important; overflow-x: hidden!important} 
+  html, body {width: auto!important; overflow-x: hidden !important} 
   a{
     color: var(--edispo-accent1);
   }
@@ -99,34 +48,43 @@
 
 /* typography */
   .edispo-special{
-    font-family: main0Regular;
+    font-family: 'Montserrat';
   }
   .edispo-light-1{
-    font-family: main1Regular;
+    font-weight: 300;
+    font-family: 'Montserrat';
   }
   .edispo-regular-1{
-    font-family: main1Regular;
+    font-weight: 400;
+    font-family: 'Montserrat';
   }
   .edispo-semibold-1{
-    font-family: main1SemiBold;
+    font-weight: 600;
+    font-family: 'Montserrat';
   }
   .edispo-bold-1{
-    font-family: main1Bold;
+    font-weight: 700;
+    font-family: 'Montserrat';
   }
   .edispo-black-1{
-    font-family: main1Black;
+    font-weight: 900;
+    font-family: 'Montserrat';
   }
   .edispo-regular-2{
-    font-family: main2Regular;
+    font-weight: 400;
+    font-family: 'Roboto';
   }
   .edispo-semibold-2{
-    font-family: main2SemiBold;
+    font-weight: 600;
+    font-family: 'Roboto';
   }
   .edispo-bold-2{
-    font-family: main2Bold;
+    font-weight: 700;
+    font-family: 'Roboto';
   }
   .edispo-black-2{
-    font-family: main2Black;
+    font-weight: 900;
+    font-family: 'Roboto';
   }
 
   .edispo-typeface-alternative{
